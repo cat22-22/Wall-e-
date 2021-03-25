@@ -1,21 +1,64 @@
 body {
-    margin:0;
-    background-color: pink;
+    margin: 0;
+    background-color:#DAF7A6;
 }
-
 header{
-    background-color: palevioletred;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom:50px;
+    font-size: 50px;
+    box-shadow: 0 3px 10px 3px #66A727;
+    background-color: #A1D371;
+}
+header h1{
+    color:#66A727;
+    font-family: Helvetica, Arial, sans-serif;
+}
+h1, h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    color:#66A727;
+}
+header img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 260px;
+    border: 10px solid #66A727;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #395E15;
+}
+main img {
+    width: 100%;
 }
 
-header img{
-    width: 300px;
-    height: 300px;
-    border-radius: 150px;
-    object-fit: cover;
-    border :10px solid papayawhip;
-    margin-top: 20px;
-    margin-bottom:20px;
+a {
+    color: #395E15;
+    text-decoration: none;
+}
+
+a:hover {
+    color:green;
+    text-decoration: underline;
+}
+
+p, li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    text-align: center;
+    color:  #395E15;
+    padding: 50px;
+    box-shadow: 0 -3px 10px 3px #66A727;
+    background-color: #A1D371;
+}
+
+.caption {
+    color:#66A727;
+    font-size: 15px;
+    text-align: center;
+    margin-top: -20px;
 }
